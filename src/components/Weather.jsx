@@ -1,8 +1,9 @@
 
 
 import { useEffect, useState } from "react";
-const API_KEY = process.env.REACT_REVIEW_API_KEY;
-//const API_KEY = "9e71483bda543e3a49606f554715d7e2"
+
+const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
+console.log("API Key:", API_KEY);
 
 
 const URL = `https://api.openweathermap.org/data/2.5/weather?lat=40.7128&lon=-74.0060&units=imperial&appid=${API_KEY}`;
