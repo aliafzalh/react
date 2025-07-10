@@ -3,6 +3,7 @@ import Blog from './components/Blog'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import User from './components/UserLIst'
+import Weather from './components/weather'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
       <User/>
       <Home/>
       <Blog />
+      <Weather/>
 
     </div>
   )
