@@ -4,6 +4,10 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 import User from './components/UserLIst'
 import Weather from './components/weather'
+// import Weather from './components/weather'
+// import Weather from './components/Weather';
+
+
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -15,7 +19,6 @@ function App() {
       <Home/>
       <Blog />
       <Weather/>
-
     </div>
   )
 }
