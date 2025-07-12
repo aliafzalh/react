@@ -4,6 +4,9 @@
 
 A simple React app built with Vite that fetches real-time weather using the OpenWeatherMap API.
 
+## Netlify deployed
+reactsba320.netlify.app
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
