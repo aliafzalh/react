@@ -7,6 +7,10 @@ A simple React app built with Vite that fetches real-time weather using the Open
 ## Netlify deployed
 reactsba320.netlify.app
 
+## API_KEY
+The API_KEY is saved in the .env file and is not shared on GitHub for security reasons. As a result, the weather app works locally but does not work on Netlify unless the environment variable is also configured in the Netlify dashboard.
+
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
