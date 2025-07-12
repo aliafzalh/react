@@ -3,7 +3,7 @@ import Blog from './components/Blog'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import User from './components/UserLIst'
-import Weather from './components/Weather'
+import Weather from './components/weather'
 
 
 
