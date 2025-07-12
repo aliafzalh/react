@@ -26,7 +26,7 @@ function Weather() {
 
   return (
     <div className="Weather-app">
-      {temp !== null ? `New York Now: ${temp} °F` : "Loading..."}
+      {temp !== null ? `New York Now: ${temp} °F` : "Loading weather data..."}
     </div>
   );
 }
